@@ -21,6 +21,7 @@ jobs:
           sphinx-apidoc -o docs/source/ sample/
           cd docs
           make html
+          make doctest
           cd build
           zip ../../api_docs.zip -r html/
       - name: Upload html documentation
