@@ -1,22 +1,11 @@
 def convert_to_letter_grade(score):
-    """
-    Converts a numerical grade to a corresponding letter grade.
+    """Converts a numerical grade to a corresponding letter grade.
 
     Args:
         score (int or float): Score from 0 to 100 to be converted to a letter grade.
 
     Returns:
         str: Letter grade corresponding to the numeric score.
-
-    Examples:
-        A: 90 to 100
-        B: 80 to 89
-        C: 70 to 79
-        D: 60 to 69
-        F: Below 60
-
-        >>> convert_to_letter_grade(64)
-        'D'
 
     Raises:
         TypeError: If the input is not an int or float.
