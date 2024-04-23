@@ -2,9 +2,6 @@ def convert_to_letter_grade(score):
     """
     Converts a numerical grade to a corresponding letter grade.
 
-    Takes input of a grade number (int or float) between 0 and 100,
-    and converts it to the corresponding letter grade.
-
     Args:
         score (int or float): Score from 0 to 100 to be converted to a letter grade.
 
