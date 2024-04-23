@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: sphinx-docs
-          path: api_docs.zi
+          path: api_docs.zip
