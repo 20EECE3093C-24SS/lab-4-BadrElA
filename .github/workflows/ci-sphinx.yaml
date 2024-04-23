@@ -1,5 +1,4 @@
 name: Doc Generation
-run-name: ${{ github.actor }} - Docs
 on:
   push:
     tags:
@@ -25,8 +24,7 @@ jobs:
           cd build
           zip ../../api_docs.zip -r html/
       - name: Upload html documentation
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v2
         with:
-          name: apidocs
-          path: api_docs.zip
-        
+          name: sphinx-docs
+          path: api_docs.zi
