@@ -1,11 +1,8 @@
 name: Doc Generation
 on:
-  push:
-    tags:
-    branches:
-      - 'main'
-    tags-ignore:
-      - '*'
+push:
+  tags:
+    - 'v*.*.*'
 jobs:
   build-docs:
     runs-on: ubuntu-latest
